@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WF_ServerUDP_Multicast", "WF_ServerUDP_Multicast\WF_ServerUDP_Multicast.csproj", "{8DDFA863-6F6C-47E6-9159-1478E282BFFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientUDP_Chat", "ClientUDP_Chat\ClientUDP_Chat.csproj", "{AD20DD46-1B44-416A-8976-8FF1B423BD5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DDFA863-6F6C-47E6-9159-1478E282BFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDFA863-6F6C-47E6-9159-1478E282BFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDFA863-6F6C-47E6-9159-1478E282BFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDFA863-6F6C-47E6-9159-1478E282BFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD20DD46-1B44-416A-8976-8FF1B423BD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD20DD46-1B44-416A-8976-8FF1B423BD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD20DD46-1B44-416A-8976-8FF1B423BD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD20DD46-1B44-416A-8976-8FF1B423BD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29453ED7-8313-41F1-8544-452B9862B132}
+	EndGlobalSection
+EndGlobal
