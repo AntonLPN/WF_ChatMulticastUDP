@@ -182,54 +182,7 @@ namespace WF_ServerUDP_Multicast
                 
 
 
-                //Console.WriteLine("UDP CHAT SERVER VERSION 3");
-                //Console.Write("Введите порт для приема сообщений: ");
-                //localPort = Int32.Parse(Console.ReadLine());
-                //ip = textBoxIP.Text;
-                //if (receiver != null)
-                //    return;
-                //receiver = Task.Run(() =>
-                //{
-                //    int localPort;
-                //    if (int.TryParse(textBoxPort.Text, out localPort))
-                //    {
-
-                //        UdpClient listener = new UdpClient(new IPEndPoint(IPAddress.Parse(ip), localPort));
-                //        IPEndPoint remoteEP = null;
-                //        while (true)
-                //        {
-                //            byte[] buff = listener.Receive(ref remoteEP);
-                //            StringBuilder builder = new StringBuilder();
-                //            builder.AppendLine($"К нам подключился клиент: {Encoding.Unicode.GetString(buff)}");
-                //            builder.AppendLine(Encoding.Default.GetString(buff));
-                //            textBoxMessages.BeginInvoke(new Action<string>(AddText), builder.ToString());
-                //        }
-                //    }
-                //});
-
-
-
-
-
-                //localPort = Convert.ToInt32(textBoxPort.Text);
-                //ip = textBoxIP.Text;
-
-
-                //try
-                //{
-                //    listeningSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp); // Создание сокета
-                //    Task listeningTask = new Task(Listen); // Создание потока для получения сообщений
-                //    listeningTask.Start(); // Запуск потока
-                //    listeningTask.Wait(); // Не идем дальше пока поток не будет остановлен
-                //}
-                //catch (Exception ex)
-                //{
-                //    MessageBox.Show(ex.StackTrace);
-                //}
-                //finally
-                //{
-                //    CloseConnect(); // Закрываем сокет
-                //}
+               
             }
     }
 }
