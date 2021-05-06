@@ -10,6 +10,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//Создайте оконное приложение «Чат». Для входа в чат пользователи 
+//указывают логин. Каждый пользователь видит все сообщения чата. Сообщения в 
+//чате могут быть только текстовыми.
+//Реализуйте отправку и прием сообщений с использованием схемы 
+//маршрутизации multicast. Для реализации задания используйте возможности 
+//класса UdpClient
+
+
+
 namespace ClientUDP_Chat
 {
     public partial class Form1 : Form
@@ -62,7 +71,7 @@ namespace ClientUDP_Chat
                     textBoxMessages.BeginInvoke(new Action<string>(AddText), builder.ToString());
 
 
-                    //Console.WriteLine("{0}:{1} - {2}", remoteFullIp.Address.ToString(), remoteFullIp.Port, builder.ToString());
+                  
                 }
             }
             catch (Exception ex)

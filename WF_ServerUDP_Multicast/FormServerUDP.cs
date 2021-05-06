@@ -11,6 +11,14 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
+//Создайте оконное приложение «Чат». Для входа в чат пользователи 
+//указывают логин. Каждый пользователь видит все сообщения чата. Сообщения в 
+//чате могут быть только текстовыми.
+//Реализуйте отправку и прием сообщений с использованием схемы 
+//маршрутизации multicast. Для реализации задания используйте возможности 
+//класса UdpClient
 namespace WF_ServerUDP_Multicast
 {
     public partial class FormServerUDP : Form
